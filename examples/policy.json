@@ -1,0 +1,5 @@
+{
+  "semantic": { "minObservations": 2 },
+  "procedural": { "minSuccesses": 2 },
+  "retrieveTopK": 6
+}

@@ -1,0 +1,16 @@
+{
+  "name": "agent-memory-write-gate-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Memory Gate — four memory stores with per-store write admission; run the same transcript write-naive vs gated and watch pollution happen.",
+  "scripts": {
+    "start": "node app/server.js",
+    "report": "node scripts/report.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm test && npm run report"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
